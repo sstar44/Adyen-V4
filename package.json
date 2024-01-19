@@ -1,5 +1,22 @@
 {
+  "name": "api-adyen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "node-jose": "^2.2.0"
+    "cs2-encryption": "^1.0.4",
+    "express": "^4.17.3",
+    "morgan": "^1.10.0",
+    "node-jose": "^2.2.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
